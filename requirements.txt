@@ -64,7 +64,7 @@ numba==0.56.4
 numexpr 
 numpy
 packaging 
-pandas==2.0.1
+pandas
 parso==0.8.3
 pickleshare==0.7.5
 Pillow==9.5.0
