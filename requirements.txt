@@ -12,7 +12,6 @@ googleapis-common-protos==1.59.0
 httplib2==0.22.0
 matplotlib==3.5.3
 numpy 
-pandas
 python-resize-image==1.1.20
 requests 
 scikit-learn 
