@@ -1,7 +1,7 @@
 streamlit
 pandas
 numpy 
-opencv
+cv2-tools
 python-constraint >= 1.4.0
 google==3.0.0
 google-api-core==2.11.0
