@@ -1,6 +1,6 @@
 streamlit
 pandas
-opencv-python
+OpenCV
 google==3.0.0
 google-api-core==2.11.0
 google-api-python-client==2.48.0
