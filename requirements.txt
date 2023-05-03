@@ -91,7 +91,6 @@ python-dateutil
 python-resize-image==1.1.20
 pytz==2023.3
 pytz-deprecation-shim==0.1.0.post0
-pywin32
 pyzmq==25.0.2
 requests 
 rich==13.3.5
