@@ -96,8 +96,8 @@ requests
 rich==13.3.5
 rsa==4.9
 scikit-learn 
-scipy==1.10.1
-seaborn==0.12.2
+scipy
+seaborn
 shap==0.41.0
 six 
 slicer==0.0.7
