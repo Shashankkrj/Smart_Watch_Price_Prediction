@@ -1,5 +1,5 @@
 streamlit
-pandas
+pandas==1.4.1
 opencv-python
 google==3.0.0
 google-api-core==2.11.0
