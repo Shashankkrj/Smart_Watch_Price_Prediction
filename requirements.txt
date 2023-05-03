@@ -21,3 +21,4 @@ scikit-learn
 scipy
 seaborn
 urllib3 
+opencv-python
