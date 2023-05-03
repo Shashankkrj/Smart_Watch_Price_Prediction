@@ -6,21 +6,21 @@ backcall==0.2.0
 backports.zoneinfo==0.2.1
 beautifulsoup4==4.12.2
 blinker==1.6.2
-Bottleneck @ file:///C:/Windows/Temp/abs_3198ca53-903d-42fd-87b4-03e6d03a8381yfwsuve8/croots/recipe/bottleneck_1657175565403/work
+Bottleneck 
 brotlipy==0.7.0
 cachetools==5.3.0
-certifi @ file:///C:/b/abs_85o_6fm0se/croot/certifi_1671487778835/work/certifi
-cffi @ file:///C:/b/abs_49n3v2hyhr/croot/cffi_1670423218144/work
+certifi 
+cffi 
 charset-normalizer==3.1.0
 click==8.1.3
 cloudpickle==2.2.1
-colorama @ file:///C:/b/abs_a9ozq0l032/croot/colorama_1672387194846/work
+colorama
 comm==0.1.3
-cryptography @ file:///C:/b/abs_8ecplyc3n2/croot/cryptography_1677533105000/work
+cryptography 
 cycler==0.11.0
 debugpy==1.6.7
-decorator @ file:///opt/conda/conda-bld/decorator_1643638310831/work
-entrypoints @ file:///C:/ci/entrypoints_1649926621128/work
+decorator 
+entrypoints 
 executing==1.2.0
 fastjsonschema==2.16.3
 fonttools==4.38.0
@@ -35,16 +35,16 @@ Google-Images-Search==1.4.6
 google-search==1.1.1
 googleapis-common-protos==1.59.0
 httplib2==0.22.0
-idna @ file:///C:/b/abs_bdhbebrioa/croot/idna_1666125572046/work
+idna 
 importlib-metadata==6.6.0
 importlib-resources==5.12.0
 ipykernel==6.22.0
 ipython==8.13.1
-ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
+ipython-genutils 
 jedi==0.18.2
 Jinja2==3.1.2
 joblib==1.2.0
-jsonschema @ file:///C:/b/abs_6ccs97j_l8/croot/jsonschema_1676558690963/work
+jsonschema 
 jupyter_client==8.2.0
 jupyter_core==5.3.0
 kiwisolver==1.4.4
@@ -56,21 +56,21 @@ matplotlib==3.5.3
 matplotlib-inline==0.1.6
 mdurl==0.1.2
 mkl-fft==1.3.1
-mkl-random @ file:///C:/ci/mkl_random_1626186184308/work
+mkl-random 
 mkl-service==2.4.0
 nbformat==5.8.0
 nest-asyncio==1.5.6
 numba==0.56.4
-numexpr @ file:///C:/b/abs_a7kbak88hk/croot/numexpr_1668713882979/work
+numexpr 
 numpy==1.24.3
-packaging @ file:///C:/b/abs_ed_kb9w6g4/croot/packaging_1678965418855/work
+packaging 
 pandas==2.0.1
 parso==0.8.3
 pickleshare==0.7.5
 Pillow==9.5.0
 platformdirs==3.5.0
 plotly==5.14.1
-pooch @ file:///tmp/build/80754af9/pooch_1623324770023/work
+pooch 
 prompt-toolkit==3.0.38
 protobuf==3.20.3
 psutil==5.9.5
@@ -78,29 +78,29 @@ pure-eval==0.2.2
 pyarrow==12.0.0
 pyasn1==0.5.0
 pyasn1-modules==0.3.0
-pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pycparser 
 pydeck==0.8.1b0
 pyfiglet==0.8.post1
 Pygments==2.15.1
 Pympler==1.0.1
-pyOpenSSL @ file:///C:/b/abs_552w85x1jz/croot/pyopenssl_1677607703691/work
+pyOpenSSL 
 pyparsing==3.0.9
 pyrsistent==0.19.3
-PySocks @ file:///C:/ci/pysocks_1605307512533/work
-python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+PySocks 
+python-dateutil 
 python-resize-image==1.1.20
 pytz==2023.3
 pytz-deprecation-shim==0.1.0.post0
 pywin32==306
 pyzmq==25.0.2
-requests @ file:///C:/b/abs_41owkd5ymz/croot/requests_1682607524657/work
+requests 
 rich==13.3.5
 rsa==4.9
-scikit-learn @ file:///C:/b/abs_a0emltxu06/croot/scikit-learn_1680198772090/work
+scikit-learn 
 scipy==1.10.1
 seaborn==0.12.2
 shap==0.41.0
-six @ file:///tmp/build/80754af9/six_1644875935023/work
+six 
 slicer==0.0.7
 smmap==5.0.0
 soupsieve==2.4.1
@@ -112,18 +112,18 @@ termcolor==1.1.0
 threadpoolctl==3.1.0
 toml==0.10.2
 toolz==0.12.0
-tornado @ file:///C:/ci/tornado_1662458743919/work
+tornado 
 tqdm==4.65.0
 traitlets==5.9.0
-typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1678559861143/work
+typing_extensions 
 tzdata==2023.3
 tzlocal==4.3
 uritemplate==4.1.1
-urllib3 @ file:///C:/b/abs_3ce53vrdcr/croot/urllib3_1680254693505/work
+urllib3 
 validators==0.20.0
 watchdog==3.0.0
 wcwidth==0.2.6
-win-inet-pton @ file:///C:/ci/win_inet_pton_1605306162074/work
+win-inet-pton 
 wincertstore==0.2
 windows-curses==2.3.1
 zipp==3.15.0
