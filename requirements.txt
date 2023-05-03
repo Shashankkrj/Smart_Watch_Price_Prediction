@@ -1,6 +1,7 @@
 streamlit
 pandas
-OpenCV
+opencv >= 3.6.2
+python-constraint >= 1.4.0
 google==3.0.0
 google-api-core==2.11.0
 google-api-python-client==2.48.0
