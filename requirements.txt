@@ -38,6 +38,7 @@ httplib2==0.22.0
 idna 
 importlib-metadata==6.6.0
 importlib-resources==5.12.0
+intel-opencl-rt
 ipykernel
 ipython
 ipython-genutils 
