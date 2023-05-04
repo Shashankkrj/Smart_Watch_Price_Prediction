@@ -3,15 +3,14 @@ import numpy as np
 import requests
 import pandas as pd
 import streamlit as st
-import pickle
 from matplotlib import pyplot as plt
 from PIL import Image
 from google_images_search import GoogleImagesSearch
 
-features = pickle.load(open('features.pkl','rb'))
-label = pickle.load(open('label.pkl','rb'))
-predictor1 = pickle.load(open('dtree.pkl','rb'))
-predictor2 = pickle.load(open('rf.pkl','rb'))
+features = pd.read_pickle('features.pkl')
+label = pd.read_pickle('label.pkl')
+predictor1 = pd.read_pickle('dtree.pkl')
+predictor2 = pd.read_pickle('rf.pkl')
 Brand = pd.read_csv('brand.csv')
 
 def predict(input_data):
@@ -34,7 +33,7 @@ def picture_adjuster(images_url, i):
     img_data = np.frombuffer(response.content, np.uint8)
     img = cv2.imdecode(img_data, cv2.IMREAD_COLOR)
     if type(img) == type(None) :
-        image = picture_adjuster(images_url, i + 5)
+        image = picture_adjuster(images_url, i )
     else:
         # Resize image to 300x300
         img_resized = cv2.resize(img, (300, 300))
