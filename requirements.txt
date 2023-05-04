@@ -1,3 +1,4 @@
+intel-opencl-rt
 pickle4
 opencv-python
 cv2-tools
