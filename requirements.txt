@@ -1,5 +1,6 @@
+python-3.9.2
 intel-opencl-rt
-pickle4
+pickle5
 opencv-python
 cv2-tools
 altair==4.2.2
