@@ -1,3 +1,4 @@
+pickle4
 opencv-python
 cv2-tools
 altair==4.2.2
@@ -97,7 +98,7 @@ python-dateutil
 python-resize-image==1.1.20
 pytz==2023.3
 pytz-deprecation-shim==0.1.0.post0
-pywin32==306
+pywin32
 pyzmq==25.0.2
 requests
 rich==13.3.5
@@ -115,7 +116,7 @@ st-card-component==0.0.10
 stack-data==0.6.2
 streamlit==1.22.0
 tenacity==8.2.2
-termcolor==1.1.0
+termcolor
 threadpoolctl==3.1.0
 toml
 toolz==0.12.0
@@ -132,5 +133,5 @@ watchdog==3.0.0
 wcwidth==0.2.6
 win-inet-pton
 wincertstore==0.2
-windows-curses==2.3.1
+windows-curses
 zipp==3.15.0
