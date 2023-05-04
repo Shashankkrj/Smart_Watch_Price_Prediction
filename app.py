@@ -7,10 +7,10 @@ from matplotlib import pyplot as plt
 from PIL import Image
 from google_images_search import GoogleImagesSearch
 
-features = pd.read_pickle('features.pkl', protocol=4)
-label = pd.read_pickle('label.pkl', protocol=4)
-predictor1 = pd.read_pickle('dtree.pkl', protocol=4)
-predictor2 = pd.read_pickle('rf.pkl', protocol=4)
+features = pd.read_pickle('features.pkl')
+label = pd.read_pickle('label.pkl')
+predictor1 = pd.read_pickle('dtree.pkl')
+predictor2 = pd.read_pickle('rf.pkl')
 Brand = pd.read_csv('brand.csv')
 
 def predict(input_data):
