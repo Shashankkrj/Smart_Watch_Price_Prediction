@@ -1,6 +1,5 @@
-python_version >= 3.9
 streamlit
-pickle5
+pickle4
 scikit-learn
 pandas
 numpy
@@ -81,7 +80,7 @@ platformdirs==3.5.0
 plotly==5.14.1
 pooch 
 prompt-toolkit==3.0.38
-protobuf==3.20.3
+protobuf
 psutil==5.9.5
 pure-eval==0.2.2
 pyarrow==12.0.0
