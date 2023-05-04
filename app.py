@@ -8,13 +8,10 @@ from matplotlib import pyplot as plt
 from PIL import Image
 from google_images_search import GoogleImagesSearch
 
-<<<<<<< HEAD
 features = dill.load(open("features.pkl","rb"))
 label = dill.load(open("label.pkl","rb"))
 predictor1 = dill.load(open("dtree.pkl","rb"))
 predictor2 = dill.load(open("rf.pkl","rb"))
-=======
->>>>>>> 7a9951714f5906af86c22df9be3ffa35e253f103
 Brand = pd.read_csv('brand.csv')
 
 def predict(input_data):
