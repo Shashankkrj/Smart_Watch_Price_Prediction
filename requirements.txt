@@ -1,5 +1,5 @@
 intel-opencl-rt
-dill
+joblib==1.2.0
 opencv-python
 cv2-tools
 altair==4.2.2
@@ -46,7 +46,6 @@ ipython
 ipython-genutils
 jedi==0.18.2
 Jinja2==3.1.2
-joblib==1.2.0
 jsonschema
 jupyter_client
 jupyter_core

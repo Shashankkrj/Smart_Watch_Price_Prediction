@@ -6,12 +6,13 @@ import pandas as pd
 import streamlit as st
 from matplotlib import pyplot as plt
 from PIL import Image
+from joblib import dump, load
 from google_images_search import GoogleImagesSearch
 
-features = dill.load(open("features.pkl","rb"))
-label = dill.load(open("label.pkl","rb"))
-predictor1 = dill.load(open("dtree.pkl","rb"))
-predictor2 = dill.load(open("rf.pkl","rb"))
+features = load("features.joblib")
+label = load("label.joblib")
+predictor1 = load("dtree.joblib")
+predictor2 = load("rf.joblib")
 Brand = pd.read_csv('brand.csv')
 
 def predict(input_data):
@@ -57,11 +58,6 @@ def plot_chart(brand_name):
     plt.ylabel("No. of Searches")
     st.pyplot(fig)
     Brand.to_csv('brand.csv')
-
-features = pd.read_pickle('features.pkl')
-label = pd.read_pickle('label.pkl')
-predictor1 = pd.read_pickle('dtree.pkl')
-predictor2 = pd.read_pickle('rf.pkl')
 
 st.title('SMART WATCH PRICE PREDICTION')
 col1, col2, col3 = st.columns(3)
