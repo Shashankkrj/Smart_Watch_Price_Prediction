@@ -2,7 +2,6 @@ import cv2
 import numpy as np
 import requests
 import pandas as pd
-import pandas.core.indexes.numeric
 import streamlit as st
 from matplotlib import pyplot as plt
 from PIL import Image
