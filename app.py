@@ -58,7 +58,7 @@ def plot_chart(brand_name):
     st.pyplot(fig)
     Brand.to_csv('brand.csv')
 
-st.title('SMART WATCH PRICE PREDICTION')
+st.title('SMART WATCH PRICE PREDICTOR')
 col1, col2, col3 = st.columns(3)
 col1 = col1.container()
 col2 = col2.container()
