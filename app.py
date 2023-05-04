@@ -58,11 +58,6 @@ def plot_chart(brand_name):
     st.pyplot(fig)
     Brand.to_csv('brand.csv')
 
-features = pd.read_pickle('features.pkl')
-label = pd.read_pickle('label.pkl')
-predictor1 = pd.read_pickle('dtree.pkl')
-predictor2 = pd.read_pickle('rf.pkl')
-
 st.title('SMART WATCH PRICE PREDICTION')
 col1, col2, col3 = st.columns(3)
 col1 = col1.container()
