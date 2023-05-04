@@ -1,9 +1,9 @@
+import pickle
 import cv2
 import numpy as np
 import requests
 import pandas as pd
 import streamlit as st
-import pickle
 from matplotlib import pyplot as plt
 from PIL import Image
 from google_images_search import GoogleImagesSearch
