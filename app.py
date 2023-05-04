@@ -1,5 +1,5 @@
-import pickle
 import cv2
+import dill
 import numpy as np
 import requests
 import pandas as pd
@@ -8,10 +8,10 @@ from matplotlib import pyplot as plt
 from PIL import Image
 from google_images_search import GoogleImagesSearch
 
-features = pd.read_pickle('features.pkl')
-label = pd.read_pickle('label.pkl')
-predictor1 = pd.read_pickle('dtree.pkl')
-predictor2 = pd.read_pickle('rf.pkl')
+features = dill.load(open("features.pkl","rb"))
+label = dill.load(open("label.pkl","rb"))
+predictor1 = dill.load(open("dtree.pkl","rb"))
+predictor2 = dill.load(open("rf.pkl","rb"))
 Brand = pd.read_csv('brand.csv')
 
 def predict(input_data):
